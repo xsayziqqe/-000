@@ -1,0 +1,117 @@
+ /*фон*/
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     border: 0;
+
+ }
+
+
+body {
+    background: url(ghghgh.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*фон*/
+
+/*текст*/
+
+.container {
+display: block;
+position: relative;
+top: 350px;
+background-position: center;
+
+}
+
+.text2 {
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    display: block;
+    position: relative;
+    top: 15px;
+    opacity: 70%;
+}
+.text3 {
+    color: white;
+    display: block;
+    position: relative;
+    font-size: 30px;
+    bottom: 20px;
+    opacity: 70%;
+}
+.text1 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Nosifer', cursive;
+}
+
+.text4 {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+
+flex-direction: row;
+
+padding: 1px 40px 5px 50px;
+gap: 10px;
+
+position: relative;
+width: 300px;
+height: 50.93px;
+left: 1.01px;
+top: 74.11px;
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+transform: rotate(-0.07deg);
+font-size: 30px;
+color: white;
+transition: color .2s linear;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.text4:hover {
+    color: rgb(46, 47, 43);
+}
+.nav-pills {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.nav-item a:active{
+    color: none;
+    background-color: none;
+}
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
